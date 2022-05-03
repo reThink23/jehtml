@@ -2,8 +2,8 @@ html
 	head
 		meta!charset:utf-8
 		title {title}
-		link!rel:stylesheet!src:https://www.example.com/all.min.css
-		script!refer
+		link!rel:stylesheet!href:https://www.example.com/all.min.css
+		script!defer
 			$(doc).ready(() =>{
 
 			})
@@ -13,4 +13,5 @@ html
 			}
 	body#main.container!style:background-color:black;>h1>span.black test
 	ul%none
-		li#test$.{arr[$].author}*?{arr}
+		li#test$.{arr[$].author}*?{arr} {$+1}-". author: "{arr[$].author}-" | "-"I like his books.","He wrote better ones!",+
+		"I get regularly disturbed by his books. But I'm fine!" 

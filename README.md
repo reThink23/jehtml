@@ -46,7 +46,7 @@ html
 	head
 		meta!charset:utf-8
 		title {title}
-		link!rel:stylesheet!src:https://www.google.com/all.min.css
+		link!rel:stylesheet!src:https://www.example.com/all.min.css
 		script!refer
 			$(doc).ready(() =>{
 

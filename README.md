@@ -57,6 +57,17 @@ html
 			}
 	body#main.container!style:background-color:black;>h1>span.black test
 		ul%none
-			li#test$.{arr[$].author}*?{arr} $+1-". author: "{arr[$].author}-" | "-"I like his books.","He wrote better ones!",+
+			li#test$.{arr[$].author}*?{arr} {$+1}-". author: "{arr[$].author}-" | "-"I like his books.","He wrote better ones!",+
 			"I get regularly disturbed by his books. But I'm fine!" 
 ```
+
+- Attributes get seperated by `!` exception of ids (`#`), classes (`.`) and types (`%`)
+- Attribute Names and values get sperated by `:` (or `=`)
+- Variables and expressions in curly brackes `{title}`
+- create direct children on the same line with `>`
+- loop over elements with `*` followed by a number of iterations or the length of an array via `?{<variable_name>}`
+- use `$` to get the index available in attributes, inside expression and as part of the text
+- to wrap to an new line use `+` at the end of the line
+- use `-` to merge expressions & strings
+- in a loop use `,` to use custom strings for each iteration (has to be same amount as number of iterations)
+

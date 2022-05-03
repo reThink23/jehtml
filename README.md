@@ -40,3 +40,22 @@ Just trying something crazy.
 Probably abondon it as soon as my interest goes to something else. 
 
 ## Example:
+
+```
+html
+	head
+		meta!charset:utf-8
+		title {title}
+		link!rel:stylesheet!src:https://www.google.com/all.min.css
+		script!refer
+			$(doc).ready(() =>{
+
+			})
+		style
+			body {
+				text-align: center;
+			}
+	body#main.container!style:background-color:black;>h1>span.black test
+	ul%none
+		li#test$.{arr[$].author}*?{arr}
+```

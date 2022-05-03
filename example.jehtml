@@ -13,5 +13,5 @@ html
 			}
 	body#main.container!style:background-color:black;>h1>span.black test
 	ul%none
-		li#test$.{arr[$].author}*?{arr} {$+1}-". author: "{arr[$].author}-" | "-"I like his books.","He wrote better ones!",+
+		li#test$.{arr[$].author}*?{arr} $+1-". author: "{arr[$].author}-" | "-"I like his books.","He wrote better ones!",+
 		"I get regularly disturbed by his books. But I'm fine!" 

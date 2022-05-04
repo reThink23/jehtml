@@ -1,0 +1,16 @@
+(start head)
+use utf-8 (as charset)
+use https://www.example.com/css/all.min.css (as stylesheet)
+(use) css (as style)
+		align text right; 
+		border is 1 pixel, solid and black 
+	of second child of body
+(use) javascript (as script)
+	save element with id "main", which is second child of "body" to mainElem
+	print text of mainElem
+	print id of mainElem
+	print attributes of mainElem
+start body
+	(use) heading 1 with id "h1", text color "blue" and text "Try neHTML - Not enough HTML"
+	(use) container with id "main" 
+		(use) template "https://www.example.com/templates/293424/element.neHTML"

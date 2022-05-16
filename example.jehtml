@@ -1,9 +1,9 @@
 html
 	head
-		meta!charset:utf-8
+		meta:charset=utf-8
 		title {title}
-		link!rel:stylesheet!href:https://www.example.com/all.min.css
-		script!defer
+		link:rel=stylesheet,href=https://www.example.com/all.min.css
+		script:defer
 			$(doc).ready(() =>{
 
 			})
@@ -11,7 +11,9 @@ html
 			body {
 				text-align: center;
 			}
-	body#main.container!style:background-color:black;>h1>span.black test
-	ul%none
-		li#test$.{arr[$].author}*?{arr} $+1-". author: "{arr[$].author}-" | "-"I like his books.","He wrote better ones!",+
-		"I get regularly disturbed by his books. But I'm fine!" 
+	body#main.container,style=background-color:black;
+		h1
+			span.black test
+		ul%none
+			li#test$.{arr[$].author}*?{arr} $1-". author: "{arr[$].author}-" | "-"I like his books.","He wrote better ones!",+
+			"I get regularly disturbed by his books. But I'm fine!" 

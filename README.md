@@ -1,4 +1,4 @@
-# jehtml Just enough HTML
+# jehtml - Just enough HTML
 
 A language inspired by Visual studio code emmet abbreviations.
 Tries to use the approach as less as possible, as much as neccessary.

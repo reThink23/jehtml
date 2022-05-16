@@ -1,7 +1,7 @@
 # jehtml - Just enough HTML
 
-A language inspired by Visual studio code emmet abbreviations.
-Tries to use the approach as less as possible, as much as neccessary.
+A template engine / language inspired by Visual studio code emmet abbreviations. Great for sketching.
+Uses the approach of just enough similarity to html so you know all the tags, but tries to shorten as much as possible. Also tries to avoid like embraced
 ## Includes:
 - Tab based
 - advanced CSS selector
@@ -34,6 +34,7 @@ Tries to use the approach as less as possible, as much as neccessary.
 
 ## Disadvantages:
 - Readabilty suffers by using few spaces
+- hard to learn
 - Why do you even need this?
 
 Just trying something crazy.

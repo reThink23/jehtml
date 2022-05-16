@@ -31,6 +31,7 @@ Uses the approach of just enough similarity to html so you know all the tags, bu
 - fast sketching of code snippets
 - structured, forced by tabs
 - Customizability
+- tries to be logical (symbols, structure)
 
 ## Disadvantages:
 - Readabilty suffers by using few spaces
